@@ -1,0 +1,23 @@
+﻿@model List< mayank.dbase.course>
+    <h1>course </h1>
+    <table class="table">>
+        <tr>
+            <th> id</th>
+            <th>course
+            </th>
+            <th> duration</th>
+        </tr>
+           @foreach (var item in Model)
+           {
+              
+               <tr>
+                <td>@item.id</td>
+               <td>@item.course1</td>
+
+                <td>@item.duration</td>
+
+                </tr>
+           }
+
+        
+    </>
